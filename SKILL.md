@@ -1,5 +1,7 @@
 ---
 name: industry-deep-dive-pipeline
+slug: industry-deep-dive-pipeline-skill
+displayName: Industry Deep-Dive Pipeline
 description: >
   This skill should be used when turning a topic brief, research materials,
   vendor case, policy event, or industry question into a publish-ready single
@@ -12,7 +14,7 @@ description: >
   drafts, or publish content.
 description_zh: 产业深度文章全流程编排。适用中立第三方产业深度研究 / 行业长文（个人 IP、公众号深度稿、厂商案例的独立分析）；不适用品牌营销稿、产品稿、按 content brief 写的推广文、技术教程。
 description_en: Industry deep-dive pipeline
-version: 1.0.1
+version: 1.0.2
 agent_created: true
 read_when:
   - industry deep dive
