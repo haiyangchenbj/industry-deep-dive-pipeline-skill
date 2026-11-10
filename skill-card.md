@@ -1,6 +1,6 @@
 ## Description:
 
-Guides a Chinese-first research and editorial workflow from an industry topic and source materials to a reviewed, publish-ready Markdown article with supporting evidence.
+Turns a research brief and source materials into a reviewed, evidence-backed industry deep-dive article, stopping before publication.
 
 This skill is ready for commercial/non-commercial use.
 
@@ -14,7 +14,7 @@ MIT-0
 
 ## Use Case:
 
-Editors, researchers, and industry analysts use this skill to develop a single evidence-backed deep-dive article on technology, AI, data, cloud, or enterprise software. It supports source verification, editorial planning, human review, and final evidence packaging.
+Writers and researchers use this skill to develop a single technology or enterprise-software deep dive from a topic brief, event, vendor case, or research materials. It supports source verification, originality review, human planning and editorial gates, drafting, and final evidence packaging.
 
 ### Deployment Geography for Use:
 
@@ -22,35 +22,35 @@ Global
 
 ## Known Risks and Mitigations:
 
-Risk: Source materials or a private writing profile may contain sensitive information.
+Risk: Automated editorial checks do not guarantee factual accuracy or privacy.
 
-Mitigation: Choose the case directory and profile path deliberately, and provide only materials you are comfortable using.
+Mitigation: Verify high-risk claims against authoritative sources and use human editorial review; treat automated checks as support, not proof.
 
-Risk: Unverified or outdated industry claims could appear in an article.
+Risk: An optional writing profile may contain private personal or company material.
 
-Mitigation: Check consequential claims against primary sources or independent corroboration, and review the fact table before approving the draft.
+Mitigation: Select private profiles deliberately, keep them in private user or project storage, and do not copy them into the public skill bundle.
 
 ## Reference(s):
 
 - [ClawHub skill release](https://clawhub.ai/haiyangchenbj/skills/industry-deep-dive-pipeline-skill)
 - [Planning schema](artifact/references/planning-schema.md)
-- [Evidence and originality](artifact/references/evidence-and-originality.md)
+- [Evidence and originality guidance](artifact/references/evidence-and-originality.md)
 - [Writing profile interface](artifact/references/writing-profile-interface.md)
-- [Replay evaluation](artifact/references/replay-evaluation.md)
+- [Replay evaluation guidance](artifact/references/replay-evaluation.md)
 
 ## Skill Output:
 
-**Output Type(s):** [Markdown, JSON, Guidance]
+**Output Type(s):** [Markdown, JSON]
 
-**Output Format:** [Markdown article and research case files, with JSON validation reports]
+**Output Format:** [A reviewed Markdown deep-dive article with planning, fact, originality, and review records, plus JSON gate reports.]
 
 **Output Parameters:** [1D]
 
-**Other Properties Related to Output:** [Requires a topic brief and source materials; includes human planning approval and review; does not publish or create distribution assets.]
+**Other Properties Related to Output:** [One article per case; stops at an approved draft and evidence package without creating publication materials or publishing content. Gate B is conditional.]
 
 ## Skill Version(s):
 
-1.1.0 (source: ClawHub release and skill frontmatter)
+1.1.1 (source: SKILL.md frontmatter, server-resolved release metadata)
 
 ## Ethical Considerations:
 
