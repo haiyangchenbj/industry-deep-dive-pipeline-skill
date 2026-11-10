@@ -22,7 +22,7 @@ description: >
   写的推广文、技术教程——这类内容请用对应项目工作区里专门的写作 Skill；本 Skill 不做品牌露出与营销措辞，也不产出发布物料。
 description_zh: 产业深度文章全流程编排
 description_en: Industry deep-dive pipeline
-version: "1.1.1"
+version: "1.1.2"
 agent_created: true
 read_when:
   - 产业深度文章
@@ -63,6 +63,8 @@ read_when:
 - `target_format`
 - `length_range`
 - `writing_profile`
+- `timeliness`
+- `confidentiality`
 
 可选输入：合集或系列关系、历史平台信号、必须处理的反方、本篇新增红线、时效窗口和用户已有假设。
 
